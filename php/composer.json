@@ -1,0 +1,23 @@
+{
+    "name": "gcchaan-sandbox/try-di",
+    "description": "sandbox",
+    "type": "project",
+    "require": {
+        "ray/di": "^2.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "GcchaanSandbox\\TryDi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gcchaan",
+            "email": "gcchaan@users.noreply.github.com"
+        }
+    ]
+}
